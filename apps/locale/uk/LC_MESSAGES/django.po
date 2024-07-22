@@ -1,0 +1,327 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 21:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: apps/bookings/apps.py:8
+msgid "Bookings data"
+msgstr ""
+
+#: apps/bookings/models/booking.py:43
+msgid "Number"
+msgstr ""
+
+#: apps/bookings/models/booking.py:45 apps/bookings/models/payment.py:21
+#: apps/bookings/models/payment.py:36
+msgid "Status"
+msgstr ""
+
+#: apps/bookings/models/booking.py:51
+#, fuzzy
+#| msgid "Room types"
+msgid "Bed types"
+msgstr "Типи кімнат"
+
+#: apps/bookings/models/booking.py:54 apps/properties/models/rate_plan.py:12
+msgid "Currency"
+msgstr "Валюта"
+
+#: apps/bookings/models/booking.py:55 apps/bookings/models/booking.py:97
+msgid "Price before tax"
+msgstr ""
+
+#: apps/bookings/models/booking.py:56
+msgid "Tax amount"
+msgstr ""
+
+#: apps/bookings/models/booking.py:57
+#, fuzzy
+#| msgid "Postal code"
+msgid "Total price"
+msgstr "Поштовий код"
+
+#: apps/bookings/models/booking.py:59
+msgid "Prepayment"
+msgstr ""
+
+#: apps/bookings/models/booking.py:60
+msgid "Paid"
+msgstr ""
+
+#: apps/bookings/models/booking.py:62
+msgid "Cancellation policy"
+msgstr ""
+
+#: apps/bookings/models/booking.py:65
+msgid "TL request memo"
+msgstr ""
+
+#: apps/bookings/models/booking.py:68
+msgid "Locked"
+msgstr ""
+
+#: apps/bookings/models/booking.py:70
+msgid "Rating"
+msgstr ""
+
+#: apps/bookings/models/booking.py:71
+msgid "Rating comment"
+msgstr ""
+
+#: apps/bookings/models/booking.py:80
+msgid "Booking"
+msgstr ""
+
+#: apps/bookings/models/booking.py:81
+msgid "Bookings"
+msgstr ""
+
+#: apps/bookings/models/booking.py:90 apps/bookings/models/booking.py:91
+msgid "Booking history"
+msgstr ""
+
+#: apps/bookings/models/booking.py:100
+msgid "Booking daily rate"
+msgstr ""
+
+#: apps/bookings/models/booking.py:101
+msgid "Booking daily rates"
+msgstr ""
+
+#: apps/bookings/models/payment.py:17 apps/bookings/models/payment.py:34
+msgid "Amount"
+msgstr ""
+
+#: apps/bookings/models/payment.py:19
+msgid "Purpose"
+msgstr ""
+
+#: apps/bookings/models/payment.py:25
+msgid "Invoice expiry"
+msgstr ""
+
+#: apps/bookings/models/payment.py:28
+msgid "Payment"
+msgstr ""
+
+#: apps/bookings/models/payment.py:29
+msgid "Payments"
+msgstr ""
+
+#: apps/bookings/models/payment.py:40
+msgid "Refund"
+msgstr ""
+
+#: apps/bookings/models/payment.py:41
+msgid "Refunds"
+msgstr ""
+
+#: apps/properties/apps.py:8 apps/properties/models/property.py:32
+msgid "Property objects"
+msgstr "Об'єкти нерухомості"
+
+#: apps/properties/models/abstract.py:9 apps/properties/models/property.py:44
+#: apps/properties/models/rate_plan.py:9 apps/properties/models/room_type.py:68
+#: apps/shared/models/locations.py:14 apps/shared/models/locations.py:45
+msgid "TL id"
+msgstr ""
+
+#: apps/properties/models/abstract.py:10 apps/properties/models/rate_plan.py:10
+#: apps/shared/models/amenity.py:6 apps/shared/models/amenity.py:20
+#: apps/shared/models/locations.py:15 apps/shared/models/locations.py:46
+#: apps/shared/models/meal_plan.py:7 apps/shared/models/room_type_category.py:7
+msgid "Title"
+msgstr "Назва"
+
+#: apps/properties/models/abstract.py:11 apps/properties/models/rate_plan.py:11
+msgid "Description"
+msgstr "Опис"
+
+#: apps/properties/models/abstract.py:13 apps/shared/models/address.py:9
+#: apps/shared/models/address.py:16
+msgid "Address"
+msgstr "Адреса"
+
+#: apps/properties/models/abstract.py:30
+msgid "Image"
+msgstr "Зображення"
+
+#: apps/properties/models/property.py:18
+msgid "Linked to TravelLine"
+msgstr ""
+
+#: apps/properties/models/property.py:19
+msgid "Check-in time"
+msgstr "Час заселення"
+
+#: apps/properties/models/property.py:20
+msgid "Check-out time"
+msgstr "Час виселення"
+
+#: apps/properties/models/property.py:31 apps/properties/models/room_type.py:55
+msgid "Property object"
+msgstr "Об'єкт нерухомості"
+
+#: apps/properties/models/property.py:50
+msgid "Property image"
+msgstr "Зображення об'єкту"
+
+#: apps/properties/models/property.py:51
+msgid "Property images"
+msgstr "Зображення об'єкту"
+
+#: apps/properties/models/rate_plan.py:13
+msgid "With children only"
+msgstr "Тільки з дітьми"
+
+#: apps/properties/models/rate_plan.py:19
+msgid "Rate plan"
+msgstr "Тарифний план"
+
+#: apps/properties/models/rate_plan.py:20
+msgid "Rate plans"
+msgstr "Тарифні плани"
+
+#: apps/properties/models/room_type.py:38
+msgid "Area"
+msgstr ""
+
+#: apps/properties/models/room_type.py:39
+#, fuzzy
+#| msgid "Beds count"
+msgid "Rooms count"
+msgstr "Ліжок"
+
+#: apps/properties/models/room_type.py:40
+msgid "Beds count"
+msgstr "Ліжок"
+
+#: apps/properties/models/room_type.py:41
+msgid "Bedrooms"
+msgstr ""
+
+#: apps/properties/models/room_type.py:42
+msgid "Non smoking room"
+msgstr ""
+
+#: apps/properties/models/room_type.py:44
+msgid "Storey"
+msgstr ""
+
+#: apps/properties/models/room_type.py:45
+msgid "Storeys"
+msgstr ""
+
+#: apps/properties/models/room_type.py:46
+msgid "Elevator"
+msgstr ""
+
+#: apps/properties/models/room_type.py:59
+msgid "Room type"
+msgstr "Тип кімнати"
+
+#: apps/properties/models/room_type.py:60
+msgid "Room types"
+msgstr "Типи кімнат"
+
+#: apps/properties/models/room_type.py:74
+msgid "Room type image"
+msgstr "Зображення типу кімнати"
+
+#: apps/properties/models/room_type.py:75
+msgid "Room type images"
+msgstr "Зображення типу кімнати"
+
+#: apps/properties/models/service.py:19
+msgid "Service"
+msgstr "Послуга"
+
+#: apps/properties/models/service.py:20
+msgid "Services"
+msgstr "Послуги"
+
+#: apps/shared/apps.py:8
+msgid "Shared"
+msgstr "Загальна інформація"
+
+#: apps/shared/models/address.py:6
+msgid "Postal code"
+msgstr "Поштовий код"
+
+#: apps/shared/models/address.py:7 apps/shared/models/locations.py:23
+#: apps/shared/models/locations.py:44
+msgid "Region"
+msgstr "Регіон"
+
+#: apps/shared/models/address.py:8 apps/shared/models/locations.py:54
+msgid "City"
+msgstr "Місто"
+
+#: apps/shared/models/address.py:17
+msgid "Addresses"
+msgstr "Адреси"
+
+#: apps/shared/models/amenity.py:12 apps/shared/models/amenity.py:18
+msgid "Amenity category"
+msgstr "Категорія обладнання"
+
+#: apps/shared/models/amenity.py:13
+msgid "Amenity categories"
+msgstr "Категорії обладнання"
+
+#: apps/shared/models/amenity.py:19 apps/shared/models/meal_plan.py:6
+#: apps/shared/models/room_type_category.py:6
+msgid "TL code"
+msgstr "Код TL"
+
+#: apps/shared/models/amenity.py:26
+msgid "Amenity"
+msgstr "Обладнання"
+
+#: apps/shared/models/amenity.py:27
+msgid "Amenities"
+msgstr "Обладнання"
+
+#: apps/shared/models/locations.py:24
+msgid "Regions"
+msgstr "Регіони"
+
+#: apps/shared/models/locations.py:55
+msgid "Cities"
+msgstr "Міста"
+
+#: apps/shared/models/meal_plan.py:13
+msgid "Meal plan"
+msgstr "План харчування"
+
+#: apps/shared/models/meal_plan.py:14
+#, fuzzy
+#| msgid "Rate plan"
+msgid "Meal plans"
+msgstr "Плани харчування"
+
+#: apps/shared/models/room_type_category.py:13
+msgid "Room type category"
+msgstr "Категорія типу кімнати"
+
+#: apps/shared/models/room_type_category.py:14
+msgid "Room type categories"
+msgstr "Категорії типів кімнат"

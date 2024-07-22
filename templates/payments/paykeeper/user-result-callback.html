@@ -1,0 +1,35 @@
+<script>
+  class Dispatcher {
+    constructor(result) {
+      this.handler = this[result];
+    }
+
+    run() {
+      if (this.handler) {
+        try {
+          this.handler();
+        } catch {
+          console.log("Handler failed")
+        }
+      } else {
+        console.log("Handler not found");
+      }
+    }
+
+    success() {
+      console.log("Checkout succeeded")
+      checkoutSuccess();
+    }
+
+    fail() {
+      console.log("Checkout failed")
+      checkoutFail();
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const result = new URLSearchParams(window.location.search).get("result");
+    const dispatcher = new Dispatcher(result);
+    dispatcher.run();
+  })
+</script>

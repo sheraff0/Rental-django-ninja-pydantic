@@ -1,0 +1,42 @@
+Django
+django-environ
+django-filter
+djangorestframework
+psycopg2-binary
+django-cors-headers
+
+Pillow
+bs4
+
+django-storages[boto3]
+
+# django admin custom UI
+django-jazzmin
+
+# dev tools
+drf-spectacular
+django-debug-toolbar
+django-silk
+ipython
+
+# networking
+uvicorn[standard]
+gunicorn
+aiohttp
+django-ninja
+pydantic[email]
+
+python-box
+
+orjson
+pyjwt
+
+# Channels
+channels
+channels_redis
+daphne
+
+# Celery
+celery
+django-celery-beat
+flower

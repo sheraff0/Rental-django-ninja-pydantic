@@ -1,0 +1,74 @@
+x-django: &django
+  build:
+    context: .
+    dockerfile: Dockerfile
+  volumes:
+    - .:/app
+  env_file:
+    - .env
+  networks:
+    - reho24_network
+  depends_on:
+    - db
+    - redis
+
+services:
+  backend:
+    <<: *django
+    container_name: reho24_backend
+    command: scripts/backend.sh
+    ports:
+      - 8750:8000
+    restart: always
+
+  celery:
+    <<: *django
+    container_name: reho24_celery
+    command: scripts/celery_worker.sh
+    restart: always
+    depends_on:
+      - db
+      - redis
+      
+  celery-beat:
+    <<: *django
+    container_name: reho24_celery_beat
+    command: scripts/celery_beat.sh
+    restart: always
+    depends_on:
+      - db
+      - redis
+
+  celery-flower:
+    <<: *django
+    container_name: reho24_celery_flower
+    command: scripts/celery_flower.sh
+    restart: always
+    depends_on:
+      - celery
+    ports:
+      - "5555:5555"
+
+  db:
+    container_name: reho24_db
+    image: postgis/postgis:16-3.4
+    restart: always
+    ports:
+      - "5432"
+    environment:
+      - POSTGRES_PASSWORD=myPassW0rD
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    networks:
+      - reho24_network
+
+  redis:
+    image: redis
+    container_name: reho24_redis
+    restart: always
+    networks:
+      reho24_network:
+
+networks:
+  reho24_network:
+    driver: bridge

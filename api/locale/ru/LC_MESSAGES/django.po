@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 21:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: api/auth/otp.py:36
+#, fuzzy
+#| msgid "Service unavailable"
+msgid "Service unavailable in your country"
+msgstr "Сервис недоступен"
+
+#: api/auth/otp.py:46
+msgid "Code doesn't exist"
+msgstr "Код не существует"
+
+#: api/auth/otp.py:51
+msgid "Codes don't match"
+msgstr "Коды не совпадают"
+
+#: api/auth/otp.py:76 api/auth/otp.py:77 api/auth/otp.py:78
+msgid "Verification code"
+msgstr "Код подтверждения"
+
+#: api/auth/otp.py:87 api/auth/otp.py:92
+msgid "Cannot send email"
+msgstr "Невозможно отправить email"
+
+#: api/auth/otp.py:87
+msgid "Service unavailable"
+msgstr "Сервис недоступен"
+
+#: api/auth/otp.py:88
+msgid "Email doesn't exist"
+msgstr "Email не существует"
+
+#: api/auth/otp.py:92
+msgid "Internal server error"
+msgstr "Внутренняя ошибка сервера"
+
+#: api/auth/otp.py:121
+#, fuzzy
+#| msgid "Cannot send email"
+msgid "Cannot send SMS"
+msgstr "Невозможно отправить email"
+
+#: api/auth/routes.py:27
+msgid "Bad credentials"
+msgstr "Ошибочные учётные данные"
+
+#: api/auth/services.py:102
+msgid "Alredy taken"
+msgstr ""
+
+#: api/auth/services.py:139
+msgid "Too many requests!"
+msgstr "Слишком много запросов!"
+
+#: api/bookings/managers/booking.py:47 api/bookings/managers/common.py:27
+msgid "Booking not found"
+msgstr "Бронирование не найдено"
+
+#: api/bookings/managers/booking.py:63
+#, fuzzy
+#| msgid "City not found"
+msgid "User not found"
+msgstr "Город не найден"
+
+#: api/bookings/managers/booking.py:76
+msgid "User not verified"
+msgstr "Пользователь не подтвержден"
+
+#: api/bookings/managers/booking.py:78
+msgid "Please provide phone"
+msgstr "Пожалуйста, сообщите номер телефона"
+
+#: api/bookings/managers/booking.py:80
+msgid "Please provide email"
+msgstr "Пожалуйста, сообщите электронный адрес"
+
+#: api/bookings/managers/booking.py:84
+msgid "Please provide first and last name"
+msgstr "Пожалуйста, сообщите имя и фамилию"
+
+#: api/bookings/managers/booking.py:90
+msgid "Search object not found"
+msgstr "Не найден объект поиска"
+
+#: api/bookings/managers/booking.py:94
+msgid "Property type not found"
+msgstr "Объект недвижимости не найден"
+
+#: api/bookings/managers/booking.py:99 api/properties/services.py:61
+msgid "Room type not found"
+msgstr "Тип комнаты не найден"
+
+#: api/bookings/managers/booking.py:100
+msgid "Room type and property do not match"
+msgstr "Не совпадают тип комнаты и объект недвижимости"
+
+#: api/bookings/managers/booking.py:105
+msgid "Room type and search city do not match"
+msgstr "Не совпадают тип комнаты и город"
+
+#: api/bookings/managers/booking.py:110
+msgid "Rate plan not found"
+msgstr "Тарифный план не найден"
+
+#: api/bookings/managers/booking.py:112
+msgid "Room type and rate plan do not match"
+msgstr "Не совпадают тип компаны и тарифный план"
+
+#: api/bookings/managers/booking.py:116
+msgid "Invalid checksum"
+msgstr "Неверная контрольная сумма"
+
+#: api/bookings/managers/booking.py:190
+msgid "TL server error"
+msgstr "Ошибка сервера TravelLine"
+
+#: api/bookings/managers/booking.py:192
+msgid "Booking conditions changed!"
+msgstr "Изменились условия бронирования!"
+
+#: api/bookings/managers/booking.py:247
+msgid "Booking is not paid"
+msgstr "Бронь не оплачена"
+
+#: api/bookings/managers/booking.py:249 api/bookings/managers/payment.py:111
+msgid "Payment not found"
+msgstr "Платёж не найден"
+
+#: api/bookings/managers/booking.py:250
+msgid "Payment needed"
+msgstr "Необходима оплата"
+
+#: api/bookings/managers/booking.py:253
+#, fuzzy
+#| msgid "Booking confirmation impossible"
+msgid "Booking impossible"
+msgstr "Подтверждение брони невозможно"
+
+#: api/bookings/managers/booking.py:254
+msgid "No create token found"
+msgstr "Не найден токен на создание брони"
+
+#: api/bookings/managers/booking.py:265 api/bookings/managers/booking.py:329
+msgid "Error in request data"
+msgstr "Ошибка в данных запроса"
+
+#: api/bookings/managers/booking.py:272 api/bookings/managers/booking.py:311
+msgid "Booking not confirmed"
+msgstr "Бронь не подтверждена"
+
+#: api/bookings/managers/booking.py:290
+msgid "New booking"
+msgstr "Новая бронь"
+
+#: api/bookings/managers/booking.py:292
+msgid "Arrival"
+msgstr "Заезд"
+
+#: api/bookings/managers/booking.py:293
+msgid "Departure"
+msgstr "Отъезд"
+
+#: api/bookings/managers/booking.py:294
+msgid "Prepayed"
+msgstr "Внесена предоплата"
+
+#: api/bookings/managers/booking.py:295
+msgid "Payment upon arrival"
+msgstr "Оплата при заезде"
+
+#: api/bookings/managers/booking.py:296
+msgid "Total price"
+msgstr "Общая стоимость"
+
+#: api/bookings/managers/booking.py:310
+msgid "Booking is already cancelled"
+msgstr "Бронь уже отменена"
+
+#: api/bookings/managers/booking.py:312
+msgid "Booking number not assigned"
+msgstr "Не присвоен номер брони"
+
+#: api/bookings/managers/booking.py:336
+msgid "Cannot obtain version"
+msgstr "Невозможно получить версию брони"
+
+#: api/bookings/managers/common.py:30
+msgid "Booking is locked for update"
+msgstr "Бронь уже редактируется"
+
+#: api/bookings/managers/common.py:81
+msgid "Process failed"
+msgstr "Ошибка обработки"
+
+#: api/bookings/managers/payment.py:29
+msgid "Payment for this purpose already exists"
+msgstr ""
+
+#: api/bookings/managers/payment.py:33
+msgid "Algorithm not defined for this purpose"
+msgstr ""
+
+#: api/bookings/managers/payment.py:40
+msgid "Payment impossible"
+msgstr "Платёж невозможен"
+
+#: api/bookings/managers/payment.py:41
+msgid "Booking already paid"
+msgstr "Бронь уже оплачена"
+
+#: api/bookings/managers/payment.py:42
+msgid "No prepayment needed"
+msgstr "Предоплата не требуется"
+
+#: api/bookings/managers/payment.py:78
+msgid "Unable to get invoice"
+msgstr ""
+
+#: api/bookings/managers/payment.py:94
+#, fuzzy
+#| msgid "No prepayment needed"
+msgid "Booking prepayment"
+msgstr "Предоплата не требуется"
+
+#: api/bookings/managers/payment.py:112
+#, fuzzy
+#| msgid "Codes don't match"
+msgid "Payment amounts don't match"
+msgstr "Коды не совпадают"
+
+#: api/locations/services.py:41
+msgid "City not found"
+msgstr "Город не найден"
